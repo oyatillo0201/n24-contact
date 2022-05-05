@@ -1,3 +1,24 @@
+/* FONTS */
+/*
+@font-face {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/rubik-v20-latin-regular.woff2") format("woff2"), url("../fonts/rubik-v20-latin-regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/rubik-v20-latin-500.woff2") format("woff2"), url("../fonts/rubik-v20-latin-500.woff") format("woff");
+}
+@font-face {
+  font-family:"Rubik", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/rubik-v20-latin-700.woff2") format("woff2"), url("../fonts/rubik-v20-latin-700.woff") format("woff");
+} */
+
 /* GLOBAL */
 html {
   height: 100%;
@@ -233,6 +254,7 @@ img {
 .sitenav-link:active {
   opacity: 0.6;
 }
+
 
 
 /* MAIN-CONTENT */
