@@ -95,6 +95,145 @@ img {
   margin-right: auto;
 }
 
+/* SITE-HEADER */
+.site-header {
+}
+
+/* SITE-HEADER-TOP */
+.site-header-top {
+  background-color:#F6F6F6F6;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 10px;
+}
+
+.site-header-top-container {
+  display: flex;
+  align-items:center;
+}
+
+
+.site-header-logo {
+  display: flex;
+  padding: 8px 6px;
+  margin-right: 30px;
+  border-radius: 7px;
+  background-color:#fff;
+}
+
+.site-header-logo:hover {
+  opacity: 0.8;
+}
+
+.site-header-logo:active {
+  opacity:06;
+}
+
+
+/* CURRENCY-RATES */
+.currency-rates {
+  display: flex;
+  align-items:center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-right: auto;
+}
+.currency-rates-item:not(:last-child) {
+  margin-right: 25px;
+}
+.currency-rates-type {
+  color: #2959ce;
+}
+
+
+/* GLOBAL-SEARCH-FORM */
+.global-search-form {
+  margin-right: 25px;
+}
+
+
+.global-search-form-input {
+  padding-top: 15px;
+  padding-bottom: 13px;
+  padding-left: 40px;
+  padding-right: 20px;
+  border: 0;
+  border-radius: 60px;
+  font-size: 14px;
+  line-height: normal;
+}
+
+
+
+/* LANG-TOGGLE */
+.lang-toggle {
+  display: flex;
+  padding: 3px;
+  border-radius: 39px;
+  background-color: #dce6ff;
+  margin-right: 25px;
+}
+
+.lang-toggle-link {
+  width: 30px;
+  height: 30px;
+  font-size: 13px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #a6a6a6;
+  border-radius: 50%;
+}
+.lang-toggle-link-active {
+  background-color: #fff;
+  color: #000;
+}
+
+
+/* SITE-NAVIGATION */
+.sitenav {
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.sitenav-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sitenav-item {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.sitenav-item:not(:last-child) {
+  margin-right: 34px;
+}
+
+.sitenav-link {
+  display: block;
+  text-decoration: none;
+  color:#7f7f7f;
+}
+
+.sitenav-link:hover {
+  color:#7296ec;
+}
+
+.sitenav-link:active {
+  opacity: 0.6;
+}
+
 
 /* MAIN-CONTENT */
 .main-content {
